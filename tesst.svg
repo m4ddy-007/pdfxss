@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <a xlink:href="http://evil.com">
+      <text x="10" y="40" font-size="24" font-weight="bold" fill="black">CLICK ME</text>
+   </a>
+</svg>
