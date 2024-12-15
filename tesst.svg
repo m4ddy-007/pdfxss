@@ -1,24 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-   <!-- Test 1: Direct href -->
+<svg xmlns="http://www.w3.org/2000/svg">
    <a href="http://evil.com">
-      <text x="10" y="40" font-size="24" font-weight="bold" fill="black">CLICK ME (Direct href)</text>
-   </a>
-   
-   <!-- Test 2: Encoded href -->
-   <a href="data:text/html;base64,aHR0cDovL2V2aWwuY29t">
-      <text x="10" y="80" font-size="24" font-weight="bold" fill="blue">CLICK ME (Base64 href)</text>
-   </a>
-   
-   <!-- Test 3: Image element -->
-   <image href="http://evil.com" x="10" y="100" width="100" height="100" />
-   
-   <!-- Test 4: Custom namespace -->
-   <custom:a xmlns:custom="http://www.w3.org/1999/xlink" href="http://evil.com">
-      <text x="10" y="220" font-size="24" font-weight="bold" fill="green">CLICK ME (Custom Namespace)</text>
-   </custom:a>
-   
-   <!-- Test 5: Obfuscated href -->
-   <a hreff="http://evil.com" onclick="location.href=this.getAttribute('hreff')">
-      <text x="10" y="260" font-size="24" font-weight="bold" fill="red">CLICK ME (Obfuscated href)</text>
+      <text x="10" y="40" font-size="24" font-weight="bold" fill="black">CLICK ME</text>
    </a>
 </svg>
