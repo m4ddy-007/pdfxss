@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-   <a href="http://evil.com">
+   <a href="data:text/html;base64,aHR0cDovL2V2aWwuY29t">
       <text x="10" y="40" font-size="24" font-weight="bold" fill="black">CLICK ME</text>
    </a>
 </svg>
