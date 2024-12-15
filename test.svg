@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-   <a xlink:href="javascript:alert(document.domain)">
-      <text x="10" y="20">Click Me</text>
-   </a>
-</svg>
